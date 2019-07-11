@@ -1,0 +1,71 @@
+{
+    "name": "ix-websocket",
+    "id": 20000,
+    "commands": [
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client start(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server start(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client stop(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server stop(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client send(&J;&O):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server send(&J;&O):C",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client clear(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server clear(&J):J",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server clients(&J):C",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket server",
+            "syntax": "Websocket server messages(&J):C",
+            "threadSafe": true
+        },
+        {
+            "theme": "websocket client",
+            "syntax": "Websocket client messages(&J):C",
+            "threadSafe": true
+        }
+    ]
+}

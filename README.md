@@ -30,6 +30,7 @@ You can call
 
 1. ``PA_CreateUnistring``
 1. ``PA_SetStringVariable`` 
+1. ``PA_ExecuteCommandByID``
 1. ``PA_DisposeUnistring``
 
 and all will be fine.
@@ -41,6 +42,9 @@ i.e.
 1. ``PA_CreateVariable(eVK_Unistring)``
 1. ``PA_CreateUnistring``
 1. ``PA_SetStringVariable`` 
+1. ``PA_ExecuteMethodByID``
 1. ``PA_ClearVariable``
 
 Notice there is not need to call ``PA_DisposeUnistring``. It is implied in ``PA_ClearVariable``.
+
+Normally, cleanup code specific to the plugin can be executed in ``kDeinitPlugin``. However, this event is **too late** to signal a process launched with ``PA_NewProcess``. Such process should be done during the ``On Exit`` database event phase, namely during the ``kCloseProcess`` of the process named ``$xx`` at the latest.

@@ -1,0 +1,115 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"events": [
+		"onLoad",
+		"onUnload"
+	],
+	"windowTitle": "Client",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"context": {
+					"type": "input",
+					"left": 390,
+					"top": 30,
+					"width": 343,
+					"height": 257,
+					"dataSource": "Form:C1466.context",
+					"enterable": false,
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"scrollbarVertical": "visible"
+				},
+				"Context2": {
+					"type": "text",
+					"text": "Context:",
+					"top": 10,
+					"left": 390,
+					"width": 295,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"client": {
+					"type": "input",
+					"left": 10,
+					"top": 30,
+					"width": 343,
+					"height": 257,
+					"dataSource": "Form:C1466.client",
+					"enterable": false,
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "object",
+					"scrollbarVertical": "visible"
+				},
+				"テキスト": {
+					"type": "text",
+					"text": "Client:",
+					"top": 10,
+					"left": 10,
+					"width": 295,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Message": {
+					"type": "input",
+					"left": 10,
+					"top": 350,
+					"width": 343,
+					"height": 117,
+					"dataSource": "Form:C1466.message",
+					"enterable": true,
+					"sizingX": "fixed",
+					"sizingY": "move",
+					"dataSourceTypeHint": "text",
+					"scrollbarVertical": "visible",
+					"method": "ObjectMethods/Message.4dm"
+				},
+				"send": {
+					"type": "button",
+					"text": "Send",
+					"top": 308,
+					"left": 10,
+					"width": 87,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/send.4dm",
+					"sizingX": "fixed",
+					"sizingY": "move"
+				},
+				"Message1": {
+					"type": "input",
+					"left": 390,
+					"top": 350,
+					"width": 343,
+					"height": 117,
+					"dataSource": "Form:C1466.status",
+					"enterable": false,
+					"sizingX": "fixed",
+					"sizingY": "move",
+					"dataSourceTypeHint": "object",
+					"scrollbarVertical": "visible"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}

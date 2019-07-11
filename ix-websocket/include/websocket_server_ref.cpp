@@ -1,6 +1,6 @@
 #include "websocket_server_ref.h"
 
-std::mutex websocket_server_ref_mutex;/* used in constructor, clearAll */
+std::mutex websocket_server_ref_mutex;/* used in constructor, clear, clearAll */
 std::map<int, websocket_server_ref *> websocket_server_list;
 
 int websocket_server_ref::getId() {
@@ -171,7 +171,9 @@ void websocket_server_ref::send(PA_ObjectRef params, const std::string& data, PA
 }
 
 websocket_server_ref::~websocket_server_ref() {
-        
+    
+    _server->stop();
+    
 	delete _server;
     delete _method;
     delete _worker;
@@ -316,6 +318,8 @@ ix::WebSocketServer *websocket_server_ref::get(PA_ObjectRef params) {
 }
 
 void websocket_server_ref::clear(PA_ObjectRef params) {
+    
+    std::lock_guard<std::mutex> lock(websocket_server_ref_mutex);
     
     std::map<int, websocket_server_ref *>::iterator it = websocket_server_list.find((int)ob_get_n(params, L"ref"));
     

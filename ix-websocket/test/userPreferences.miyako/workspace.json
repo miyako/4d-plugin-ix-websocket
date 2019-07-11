@@ -1,32 +1,19 @@
 ﻿{
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483639,
-			"previousTabType": "method",
-			"previousTabID": 2147483647,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "test_client"
-			}
+			"type": "form",
+			"id": 1,
+			"previousTabType": "form",
+			"previousTabID": 2,
+			"formName": "Server"
 		},
 		{
-			"type": "method",
-			"id": 2147483647,
-			"previousTabType": "method",
-			"previousTabID": 2147483645,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "test_server"
-			}
+			"type": "form",
+			"id": 2,
+			"formName": "Client"
 		},
 		{
-			"type": "method",
-			"id": 2147483645,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "worker_server"
-			}
+			"type": "explorer"
 		}
 	]
 }

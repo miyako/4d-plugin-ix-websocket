@@ -1,7 +1,10 @@
 ﻿{
 	"methods": {
-		"test_server": {
-			"timeStamp": "2019-07-10T16:57:22.557Z"
+		"Server": {
+			"timeStamp": "2019-07-11T06:29:40.247Z",
+			"attributes": {
+				"invisible": true
+			}
 		},
 		"generate_file_from_template": {
 			"timeStamp": "2019-07-02T13:36:21.000Z",
@@ -9,9 +12,6 @@
 				"invisible": true,
 				"preemptive": "capable"
 			}
-		},
-		"worker_server": {
-			"timeStamp": "2019-07-11T03:38:15.882Z"
 		},
 		"generate_project_infoplist": {
 			"timeStamp": "2019-07-02T13:51:21.000Z",
@@ -34,14 +34,8 @@
 				"preemptive": "capable"
 			}
 		},
-		"worker_client": {
-			"timeStamp": "2019-07-11T03:02:00.949Z"
-		},
 		"generate_project": {
 			"timeStamp": "2019-07-08T06:55:11.636Z"
-		},
-		"test_client": {
-			"timeStamp": "2019-07-11T03:02:02.472Z"
 		},
 		"generate_project_vs": {
 			"timeStamp": "2019-07-02T07:14:12.000Z",
@@ -57,6 +51,18 @@
 				"preemptive": "capable"
 			}
 		},
+		"Client": {
+			"timeStamp": "2019-07-11T06:29:39.463Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"callback": {
+			"timeStamp": "2019-07-11T06:30:13.268Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
 		"generate_project_source": {
 			"timeStamp": "2019-07-02T14:36:13.000Z",
 			"attributes": {
@@ -64,14 +70,8 @@
 				"preemptive": "capable"
 			}
 		},
-		"(test_client1)": {
-			"timeStamp": "2019-07-10T16:16:32.441Z"
-		},
-		"(test_server1_1)": {
-			"timeStamp": "2019-07-10T16:12:58.377Z"
-		},
-		"(test_server1)": {
-			"timeStamp": "2019-07-09T11:45:22.919Z"
+		"(test_client)": {
+			"timeStamp": "2019-07-11T06:20:10.931Z"
 		}
 	}
 }

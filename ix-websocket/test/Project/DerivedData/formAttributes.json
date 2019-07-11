@@ -1,7 +1,11 @@
 ﻿{
 	"forms": {
-		"フォーム1": {
-			"timeStamp": "2019-06-25T01:30:24.000Z",
+		"Server": {
+			"timeStamp": "2019-07-11T07:03:31.111Z",
+			"destination": "detailScreen"
+		},
+		"Client": {
+			"timeStamp": "2019-07-11T07:03:31.096Z",
 			"destination": "detailScreen"
 		}
 	}

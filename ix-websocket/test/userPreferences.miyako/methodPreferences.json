@@ -188,67 +188,112 @@
 		"bookmarks": [],
 		"stamp": "2019-07-07T00:13:49.000Z"
 	},
-	"Sources/Methods/test_server.4dm": {
+	"Sources/Methods/callback.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:30:13.268Z"
+	},
+	"Sources/Forms/dashboard/method.4dm": {
 		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2019-07-10T16:57:22.557Z"
-	},
-	"Sources/Methods/test_client.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2019-07-11T03:02:02.472Z"
-	},
-	"Sources/Methods/worker_server.4dm": {
-		"startSelection": 30,
-		"endSelection": 5,
-		"firstSelectedLine": 18,
-		"lastSelectedLine": 18,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2019-07-11T03:38:15.882Z"
-	},
-	"Trash/Methods/(test_server1).4dm": {
-		"startSelection": 36,
 		"endSelection": 0,
 		"firstSelectedLine": 6,
 		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-09T11:45:22.919Z"
+		"stamp": ""
 	},
-	"Trash/Methods/(test_server1_1).4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 18,
-		"lastSelectedLine": 18,
+	"Sources/Forms/Client/method.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-10T16:12:58.377Z"
+		"stamp": "2019-07-11T06:52:35.747Z"
 	},
-	"Trash/Methods/(test_client1).4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 18,
-		"lastSelectedLine": 18,
+	"Sources/Forms/Server/method.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-10T16:16:32.441Z"
+		"stamp": "2019-07-11T06:46:37.209Z"
 	},
-	"Sources/Methods/worker_client.4dm": {
-		"startSelection": 5,
+	"Sources/Forms/Server/ObjectMethods/ボタン.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:48:06.196Z"
+	},
+	"Sources/Forms/Server/ObjectMethods/Message.4dm": {
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 3,
+		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-11T03:02:00.949Z"
+		"stamp": "2019-07-11T06:23:16.717Z"
+	},
+	"Sources/Forms/Client/ObjectMethods/ボタン.4dm": {
+		"startSelection": 41,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:48:06.192Z"
+	},
+	"Sources/Methods/Server.4dm": {
+		"startSelection": 34,
+		"endSelection": 14,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:29:40.247Z"
+	},
+	"Sources/Methods/Client.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:29:39.463Z"
+	},
+	"Sources/Forms/Server/ObjectMethods/send.4dm": {
+		"startSelection": 46,
+		"endSelection": 46,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:48:06.196Z"
+	},
+	"Sources/Forms/Client/ObjectMethods/send.4dm": {
+		"startSelection": 41,
+		"endSelection": 0,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:48:06.192Z"
+	},
+	"Trash/Methods/(test_client).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-11T06:20:10.931Z"
 	}
 }

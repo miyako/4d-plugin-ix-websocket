@@ -155,24 +155,6 @@
 		"width": 877,
 		"height": 662
 	},
-	"Sources/Methods/test_server.4dm": {
-		"left": 509,
-		"top": 394,
-		"width": 1129,
-		"height": 766
-	},
-	"Sources/Methods/test_client.4dm": {
-		"left": 509,
-		"top": 369,
-		"width": 1129,
-		"height": 791
-	},
-	"Sources/Methods/worker_server.4dm": {
-		"left": 509,
-		"top": 394,
-		"width": 1129,
-		"height": 766
-	},
 	"Trash/Methods/(test_server1).4dm": {
 		"left": 208,
 		"top": 245,
@@ -191,10 +173,88 @@
 		"width": 1129,
 		"height": 812
 	},
-	"Sources/Methods/worker_client.4dm": {
-		"left": 307,
-		"top": 284,
-		"width": 1129,
-		"height": 672
+	"Sources/Methods/callback.4dm": {
+		"left": 490,
+		"top": 163,
+		"width": 922,
+		"height": 479
+	},
+	"Trash/Methods/(worker_client).4dm": {
+		"left": 50,
+		"top": 280,
+		"width": 810,
+		"height": 443
+	},
+	"Sources/Forms/dashboard/method.4dm": {
+		"left": 216,
+		"top": 367,
+		"width": 1102,
+		"height": 724
+	},
+	"Sources/Forms/Client/method.4dm": {
+		"left": 529,
+		"top": 138,
+		"width": 922,
+		"height": 504
+	},
+	"Sources/Forms/Server/method.4dm": {
+		"left": 704,
+		"top": 447,
+		"width": 1102,
+		"height": 724
+	},
+	"Sources/Forms/Server/ObjectMethods/ボタン.4dm": {
+		"left": 490,
+		"top": 163,
+		"width": 922,
+		"height": 479
+	},
+	"Sources/Forms/Server/ObjectMethods/Message.4dm": {
+		"left": 592,
+		"top": 261,
+		"width": 1102,
+		"height": 724
+	},
+	"Sources/Forms/Client/ObjectMethods/ボタン.4dm": {
+		"left": 490,
+		"top": 163,
+		"width": 922,
+		"height": 479
+	},
+	"Sources/Methods/Server.4dm": {
+		"left": 265,
+		"top": 296,
+		"width": 1102,
+		"height": 699
+	},
+	"Sources/Methods/Client.4dm": {
+		"left": 265,
+		"top": 296,
+		"width": 1102,
+		"height": 699
+	},
+	"Trash/Methods/(test_server).4dm": {
+		"left": 578,
+		"top": 314,
+		"width": 1102,
+		"height": 724
+	},
+	"Sources/Forms/Server/ObjectMethods/send.4dm": {
+		"left": 490,
+		"top": 163,
+		"width": 922,
+		"height": 479
+	},
+	"Sources/Forms/Client/ObjectMethods/send.4dm": {
+		"left": 490,
+		"top": 163,
+		"width": 922,
+		"height": 479
+	},
+	"Trash/Methods/(test_client).4dm": {
+		"left": 137,
+		"top": 338,
+		"width": 824,
+		"height": 538
 	}
 }

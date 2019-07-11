@@ -1,6 +1,6 @@
 #include "websocket_client_ref.h"
 
-std::mutex websocket_client_ref_mutex;/* used in constructor, clearAll */
+std::mutex websocket_client_ref_mutex;/* used in constructor, clear, clearAll */
 std::map<int, websocket_client_ref *> websocket_client_list;
 
 int websocket_client_ref::getId() {
@@ -193,6 +193,12 @@ void websocket_client_ref::send(PA_ObjectRef params, const std::string& data, PA
 
 websocket_client_ref::~websocket_client_ref() {
     
+    _client->stop();
+    
+    delete _client;
+    delete _method;
+    delete _worker;
+    
     std::cout << "delete client: " << _id << std::endl;
 }
 
@@ -236,10 +242,14 @@ ix::WebSocket *websocket_client_ref::get(PA_ObjectRef params) {
 
 void websocket_client_ref::clear(PA_ObjectRef params) {
     
+    std::lock_guard<std::mutex> lock(websocket_client_ref_mutex);
+    
     std::map<int, websocket_client_ref *>::iterator it = websocket_client_list.find((int)ob_get_n(params, L"ref"));
     
     if(it != websocket_client_list.end())
     {
+        //need to stop first!
+        
         delete it->second;
         
         websocket_client_list.erase(it);

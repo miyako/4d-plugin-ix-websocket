@@ -1,8 +1,14 @@
 ﻿{
-	"Sources/Forms/フォーム1/form.4DForm": {
-		"left": 307,
-		"top": 259,
-		"width": 1129,
-		"height": 697
+	"Sources/Forms/Client/form.4DForm": {
+		"left": 529,
+		"top": 138,
+		"width": 922,
+		"height": 504
+	},
+	"Sources/Forms/Server/form.4DForm": {
+		"left": 529,
+		"top": 113,
+		"width": 922,
+		"height": 529
 	}
 }

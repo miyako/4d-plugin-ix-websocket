@@ -22,4 +22,4 @@ Simple websocket based on [IXWebSocket](https://github.com/machinezone/IXWebSock
 * ``PA_ObjectRef`` and ``PA_CollectionRef`` are not allowed (always ``0x0``)
 * ``PA_ExecuteCommandByID`` is not allowed
 
-**Note**: ``PA_ExecuteMethodByID`` is allowed. In previous versions, it was possible to invoke a shared component method with ``PA_ExecuteCommandByID`` and ``EXECUTE METHOD:C1007``. This is no longer possible. 
+**Note**: In previous versions, it was possible to invoke a shared component method with ``PA_ExecuteCommandByID`` and ``EXECUTE METHOD:C1007``. This is no longer possible. Now, only a method in the host database can be invoked (``PA_ExecuteMethodByID`` is allowed).

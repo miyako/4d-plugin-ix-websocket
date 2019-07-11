@@ -25,11 +25,8 @@ extern "C" {
         websocket_event_queue(websocket_message_list *list, std::mutex *mutex);
         ~websocket_event_queue();
         
-        static void ascii(CUTF16String *fromString, std::string *toString);
-        
-        void quit();
-        
         static void loop();
+        static void run();
         
         static void convert(const char *fromString, CUTF16String *toString);
     };

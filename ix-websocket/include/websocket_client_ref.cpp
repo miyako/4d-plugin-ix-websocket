@@ -2,6 +2,7 @@
 
 std::mutex websocket_client_ref_mutex;/* used in constructor, clear, clearAll */
 std::map<int, websocket_client_ref *> websocket_client_list;
+/* ref, find should not use mutex; it will creata a dead lock */
 
 int websocket_client_ref::getId() {
     
@@ -205,7 +206,7 @@ websocket_client_ref::~websocket_client_ref() {
 websocket_client_ref *websocket_client_ref::ref(int i) {
     
     websocket_client_ref *ref = NULL;
-        
+    
     std::map<int, websocket_client_ref *>::iterator it = websocket_client_list.find(i);
     
     if(it != websocket_client_list.end())

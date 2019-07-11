@@ -5,7 +5,7 @@ bool websocket_event_queue_exit = true;
 std::mutex *websocket_event_queue_message_list_mutex;
 websocket_message_list *websocket_event_queue_message_list = NULL;
 
-#define CALLBACK_SLEEP_TIME 29
+#define CALLBACK_SLEEP_TIME 9
 
 websocket_event_queue::websocket_event_queue(websocket_message_list *list, std::mutex *mutex) :
 _name(new CUTF16String)
@@ -18,42 +18,6 @@ _name(new CUTF16String)
     _process = PA_NewProcess/*threadSafe*/((void *)loop, _stackSize, (PA_Unichar *)_name->c_str());
     
     std::cout << "create event queue" << std::endl;
-}
-
-void websocket_event_queue::ascii(CUTF16String *fromString, std::string *toString) {
-    
-#ifdef _WIN32
-    int len = WideCharToMultiByte(CP_UTF8, 0, (LPCWSTR)fromString->c_str(), fromString->length(), NULL, 0, NULL, NULL);
-    
-    if(len){
-        std::vector<uint8_t> buf(len + 1);
-        if(WideCharToMultiByte(CP_UTF8, 0, (LPCWSTR)fromString->c_str(), fromString->length(), (LPSTR)&buf[0], len, NULL, NULL)){
-            *toString = std::string((const uint8_t *)&buf[0]);
-        }
-    }else{
-        *toString = std::string((const uint8_t *)"");
-    }
-    
-#else
-    CFStringRef str = CFStringCreateWithCharacters(kCFAllocatorDefault, (const UniChar *)fromString->c_str(), fromString->length());
-    if(str){
-        
-        size_t size = CFStringGetMaximumSizeForEncoding(
-                                                        CFStringGetLength(str),
-                                                        kCFStringEncodingUTF8) + sizeof(uint8_t);
-        std::vector<uint8_t> buf(size);
-        CFIndex len = 0;
-        CFStringGetBytes(str,
-                         CFRangeMake(
-                                     0,
-                                     CFStringGetLength(str)),
-                         kCFStringEncodingUTF8,
-                         0, true, (UInt8 *)&buf[0], size, &len);
-        
-        *toString = std::string((const char *)&buf[0], len);
-        CFRelease(str);
-    }
-#endif
 }
 
 void websocket_event_queue::loop() {
@@ -120,6 +84,13 @@ void websocket_event_queue::loop() {
                         PA_SetLongintVariable(&params[6], process);//$7
                         
                         PA_ExecuteMethodByID(methodId, params, 7);
+                       
+                        PA_ErrorCode err = PA_GetLastError();
+                        
+                        if(err == eER_NoErr)
+                        {
+                            
+                        }
                         
                         PA_ClearVariable(&params[0]);
                         PA_ClearVariable(&params[1]);

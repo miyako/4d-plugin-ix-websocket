@@ -14,3 +14,12 @@ Simple websocket based on [IXWebSocket](https://github.com/machinezone/IXWebSock
 ### Syntax
 
 [miyako.github.io](https://miyako.github.io/2019/07/11/4d-plugin-ix-websocket.html)
+
+### Discussion
+
+``PA_NewProcess`` is now thread safe. However, it seems like a process launched using this API has some significant limitations.
+
+* ``PA_ObjectRef`` and ``PA_CollectionRef`` are not allowed (always ``0x0``)
+* ``PA_ExecuteCommandByID`` is not allowed
+
+**Note**: ``PA_ExecuteMethodByID`` is allowed. In previous versions, it was possible to invoke a shared component method with ``PA_ExecuteCommandByID`` and ``EXECUTE METHOD:C1007``. This is no longer possible. 

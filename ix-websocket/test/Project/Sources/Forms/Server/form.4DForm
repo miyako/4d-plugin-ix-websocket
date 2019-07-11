@@ -9,8 +9,6 @@
 	"windowMinHeight": 0,
 	"windowMaxWidth": 32767,
 	"windowMaxHeight": 32767,
-	"rightMargin": 10,
-	"bottomMargin": 10,
 	"events": [
 		"onLoad",
 		"onUnload"
@@ -19,7 +17,19 @@
 	"destination": "detailScreen",
 	"pages": [
 		{
-			"objects": {}
+			"objects": {
+				"四角": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 763,
+					"height": 497,
+					"fill": "#F5EEF3",
+					"stroke": "transparent",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				}
+			}
 		},
 		{
 			"objects": {
@@ -31,7 +41,7 @@
 					"height": 257,
 					"dataSource": "Form:C1466.context",
 					"enterable": false,
-					"sizingX": "fixed",
+					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSourceTypeHint": "object",
 					"scrollbarVertical": "visible"
@@ -102,7 +112,7 @@
 					"height": 117,
 					"dataSource": "Form:C1466.status",
 					"enterable": false,
-					"sizingX": "fixed",
+					"sizingX": "grow",
 					"sizingY": "move",
 					"dataSourceTypeHint": "object",
 					"scrollbarVertical": "visible"

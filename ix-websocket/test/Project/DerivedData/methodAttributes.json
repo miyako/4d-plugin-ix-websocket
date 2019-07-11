@@ -69,9 +69,6 @@
 				"invisible": true,
 				"preemptive": "capable"
 			}
-		},
-		"(test_client)": {
-			"timeStamp": "2019-07-11T06:20:10.931Z"
 		}
 	}
 }

@@ -174,12 +174,12 @@ websocket_server_ref::~websocket_server_ref() {
     
     _server->stop();
     
-	delete _server;
-    delete _method;
-    delete _worker;
-    
     _clients.clear();
     _clients_reverse.clear();
+    
+    delete _server;
+    delete _method;
+    delete _worker;
     
     std::cout << "delete server: " << _id << std::endl;
 }

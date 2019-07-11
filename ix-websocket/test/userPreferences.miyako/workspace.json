@@ -2,14 +2,7 @@
 	"editors": [
 		{
 			"type": "form",
-			"id": 1,
-			"previousTabType": "form",
-			"previousTabID": 2,
-			"formName": "Server"
-		},
-		{
-			"type": "form",
-			"id": 2,
+			"id": 6,
 			"formName": "Client"
 		},
 		{

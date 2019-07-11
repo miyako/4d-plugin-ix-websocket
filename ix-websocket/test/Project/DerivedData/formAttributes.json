@@ -1,11 +1,11 @@
 ﻿{
 	"forms": {
 		"Server": {
-			"timeStamp": "2019-07-11T07:03:31.111Z",
+			"timeStamp": "2019-07-11T07:31:19.135Z",
 			"destination": "detailScreen"
 		},
 		"Client": {
-			"timeStamp": "2019-07-11T07:03:31.096Z",
+			"timeStamp": "2019-07-11T07:31:19.154Z",
 			"destination": "detailScreen"
 		}
 	}

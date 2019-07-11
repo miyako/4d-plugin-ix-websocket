@@ -1,14 +1,14 @@
 ﻿{
-	"Sources/Forms/Client/form.4DForm": {
-		"left": 529,
-		"top": 138,
-		"width": 922,
-		"height": 504
-	},
 	"Sources/Forms/Server/form.4DForm": {
-		"left": 529,
-		"top": 113,
-		"width": 922,
-		"height": 529
+		"left": 54,
+		"top": 339,
+		"width": 966,
+		"height": 657
+	},
+	"Sources/Forms/Client/form.4DForm": {
+		"left": 54,
+		"top": 314,
+		"width": 966,
+		"height": 682
 	}
 }

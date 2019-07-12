@@ -47,9 +47,17 @@ i.e.
 
 Notice there is not need to call ``PA_DisposeUnistring``. It is implied in ``PA_ClearVariable``.
 
+### PA_NewProcess dilenma
+
 Normally, cleanup code specific to a plugin can be executed in ``kDeinitPlugin``. However, this event is **too late** to signal a process launched with ``PA_NewProcess``. One must signal the process during the ``On Exit`` database event phase, namely during the ``kCloseProcess`` of the process named ``$xx`` at the latest.
 
-#### poll(2)
+It seems there is a difference between tracing a process with ``TRACE`` versus break points. 
+
+``TRACE``: If the method is aborted in the debugger, subsequent calls to ``PA_ExecuteMethodByID`` are ignored with no errors. The application can be closed even while the debugger is displayed. 
+
+Break point: If the debugger is displayed, the application can't be closed (hang). On the other hand, aborting a method does not prevent subsequent calls to ``PA_ExecuteMethodByID``.
+
+#### poll(2) replacement
 
 On windows, a ``poll()`` shim is required to build ``ixwebsocket.lib``.
 

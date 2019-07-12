@@ -57,7 +57,7 @@ It seems there is a difference between tracing a process with ``TRACE`` versus b
 
 Break point: If the debugger is displayed, the application can't be closed (hang). On the other hand, aborting a method does not prevent subsequent calls to ``PA_ExecuteMethodByID``.
 
-#### poll(2) replacement
+#### poll() replacement
 
 On windows, a ``poll()`` shim is required to build ``ixwebsocket.lib``.
 

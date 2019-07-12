@@ -57,7 +57,7 @@ Tested the following versions:
 
 [libressl-portable/portable](https://github.com/libressl-portable/portable/blob/master/apps/openssl/compat/poll_win.c) cosumes too much CPU
 
-
+reading: [daniel.haxx.se](https://daniel.haxx.se/blog/2012/10/10/wsapoll-is-broken/)
 
 
 

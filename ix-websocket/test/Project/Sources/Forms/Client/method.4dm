@@ -8,7 +8,7 @@ Case of
 		$o:=New object:C1471
 		$o.method:="callback"
 		$o.window:=Current form window:C827
-		$o.url:="ws://localhost:8080/"
+		$o.url:="ws://127.0.0.1:8080/"
 		
 		Form:C1466.client:=Websocket client ($o)
 		Form:C1466.status:=Websocket client start (Form:C1466.client)

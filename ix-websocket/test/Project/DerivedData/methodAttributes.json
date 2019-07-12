@@ -1,7 +1,7 @@
 ﻿{
 	"methods": {
 		"Server": {
-			"timeStamp": "2019-07-11T06:29:40.247Z",
+			"timeStamp": "2019-07-11T06:29:40.000Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -35,7 +35,7 @@
 			}
 		},
 		"generate_project": {
-			"timeStamp": "2019-07-08T06:55:11.636Z"
+			"timeStamp": "2019-07-08T06:55:11.000Z"
 		},
 		"generate_project_vs": {
 			"timeStamp": "2019-07-02T07:14:12.000Z",
@@ -52,13 +52,13 @@
 			}
 		},
 		"Client": {
-			"timeStamp": "2019-07-11T06:29:39.463Z",
+			"timeStamp": "2019-07-11T06:29:39.000Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"callback": {
-			"timeStamp": "2019-07-11T13:28:19.581Z",
+			"timeStamp": "2019-07-11T13:28:19.000Z",
 			"attributes": {
 				"invisible": true
 			}

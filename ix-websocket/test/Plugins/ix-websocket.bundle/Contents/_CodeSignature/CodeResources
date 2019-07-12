@@ -13,6 +13,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/LICENSE (IXWebSocket).txt</key>
+		<data>
+		Vp1jNwPNgd6WI/i/KXsbhGvd1BU=
+		</data>
 		<key>Resources/constants.xlf</key>
 		<data>
 		Jl2YumSPb8BfSR5dfGo38R/tJ5w=
@@ -44,6 +48,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/LICENSE (IXWebSocket).txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vp1jNwPNgd6WI/i/KXsbhGvd1BU=
+			</data>
+			<key>hash2</key>
+			<data>
+			nMRtQmXxirlZt1xEECKF3AS7BOortpaxhY9cOPfrrKA=
+			</data>
+		</dict>
 		<key>Resources/constants.xlf</key>
 		<dict>
 			<key>hash</key>
@@ -59,22 +74,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hL9gqzB1pAgChKZ1uj+Jqt43yxs=
+			sT/cbiRt2o5sw3n7FDcDR4S597c=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZCCEqtPmUM+2iJDxTvuZrd5mchV7dH5Z4RZvNF7YQT0=
+			KFsuPMg0cuO8K0mjjSR/9BE2qXUYCzLGCnqlSNh3UcY=
 			</data>
 		</dict>
 		<key>Windows64/ix-websocket.4DX</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zvoZ7ULt+O/aKx6NzgaqTillGNg=
+			NKkmuUpik00dJyH1e6LrLGV2qlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xZ0isPdvytfz/ISMhvmTet0RKxwRCg6HeDepN7N2icI=
+			wRkOYLG2k0VqzCT9QIBrmguGP9xj4O9MWrO5a8rcIjY=
 			</data>
 		</dict>
 		<key>manifest.json</key>

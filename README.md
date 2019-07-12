@@ -48,3 +48,15 @@ i.e.
 Notice there is not need to call ``PA_DisposeUnistring``. It is implied in ``PA_ClearVariable``.
 
 Normally, cleanup code specific to a plugin can be executed in ``kDeinitPlugin``. However, this event is **too late** to signal a process launched with ``PA_NewProcess``. One must signal the process during the ``On Exit`` database event phase, namely during the ``kCloseProcess`` of the process named ``$xx`` at the latest.
+
+#### poll(2)
+
+On windows, a ``poll()`` shim is required to build ``ixwebsocket.lib``.
+
+Tested the following versions:
+
+[here](libressl-portable/portable)[https://github.com/libressl-portable/portable/blob/master/apps/openssl/compat/poll_win.c] 
+
+
+
+

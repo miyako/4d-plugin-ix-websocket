@@ -65,8 +65,8 @@ Tested the following versions:
 
 * [libressl-portable/portable](https://github.com/libressl-portable/portable/blob/master/apps/openssl/compat/poll_win.c) cosumes too much CPU (50% for each object)
 
-* [WSAPoll](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsapoll)
+* [WSAPoll](https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsapoll) server works, client not
 
 reading: [daniel.haxx.se](https://daniel.haxx.se/blog/2012/10/10/wsapoll-is-broken/)
 
-* [mpv-player/mpv/](https://github.com/mpv-player/mpv/blob/master/osdep/polldev.c)
+* [mpv-player/mpv/](https://github.com/mpv-player/mpv/blob/master/osdep/polldev.c) this one did the trick!

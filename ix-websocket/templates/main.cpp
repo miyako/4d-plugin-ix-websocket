@@ -32,7 +32,8 @@ void PluginMain(PA_long32 selector, PA_PluginParameters params) {
             
 <!--#4DLOOP $commands-->$4DEVAL($command:=$commands{$commands})<!--#4DIF (Match regex:C1019("([^\\u0028]+)";$command.syntax;1;$pos;$len))-->$4DEVAL($commandSyntax:=Substring:C12($command.syntax;$pos{1};$len{1}))			case $4DEVAL($commands) :
 				$4DEVAL(Replace string:C233($commandSyntax;" ";"_"))(params);
-				break;<!--#4DENDIF--><!--#4DENDLOOP-->
+				break;<!--#4DENDIF-->
+<!--#4DENDLOOP-->
         }
 
 	}

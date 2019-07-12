@@ -55,8 +55,7 @@ On windows, a ``poll()`` shim is required to build ``ixwebsocket.lib``.
 
 Tested the following versions:
 
-[libressl-portable/portable](https://github.com/libressl-portable/portable/blob/master/apps/openssl/compat/poll_win.c)
-
+[libressl-portable/portable](https://github.com/libressl-portable/portable/blob/master/apps/openssl/compat/poll_win.c) cosumes too much CPU
 
 
 

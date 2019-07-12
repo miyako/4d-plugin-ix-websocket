@@ -5,7 +5,7 @@ Simple websocket based on [IXWebSocket](https://github.com/machinezone/IXWebSock
 
 | carbon | cocoa | win32 | win64 |
 |:------:|:-----:|:---------:|:---------:|
-||<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" /> | |
+||<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" /> |<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" /> |<img src="https://cloud.githubusercontent.com/assets/1725068/22371562/1b091f0a-e4db-11e6-8458-8653954a7cce.png" width="24" height="24" />
 
 ### Version
 
@@ -47,7 +47,7 @@ i.e.
 
 Notice there is not need to call ``PA_DisposeUnistring``. It is implied in ``PA_ClearVariable``.
 
-### PA_NewProcess dilenma
+#### PA_NewProcess dilenma
 
 Normally, cleanup code specific to a plugin can be executed in ``kDeinitPlugin``. However, this event is **too late** to signal a process launched with ``PA_NewProcess``. One must signal the process during the ``On Exit`` database event phase, namely during the ``kCloseProcess`` of the process named ``$xx`` at the latest.
 
@@ -57,7 +57,7 @@ It seems there is a difference between tracing a process with ``TRACE`` versus b
 
 Break point: If the debugger is displayed, the application can't be closed (hang). On the other hand, aborting a method does not prevent subsequent calls to ``PA_ExecuteMethodByID``.
 
-#### poll(2) replacement
+#### poll() replacement
 
 On windows, a ``poll()`` shim is required to build ``ixwebsocket.lib``.
 

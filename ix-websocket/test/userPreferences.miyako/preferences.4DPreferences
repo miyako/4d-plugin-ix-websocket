@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
+	<com.4d>
+		<database>
+			<data_storage data_path="Data/data.4DD"/>
+		</database>
+		<server>
+			<misc open_admin_window_at_startup="false"/>
+		</server>
+	</com.4d>
+</preferences>

@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WhTjaJ2Sym+IrDuUVtfEuLo3KxM=
+			h7zQKlogj+Wjb8R0jQl2zl3c2F0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -20,6 +20,10 @@
 		<key>Resources/constants.xlf</key>
 		<data>
 		Jl2YumSPb8BfSR5dfGo38R/tJ5w=
+		</data>
+		<key>Resources/manifest.json</key>
+		<data>
+		kR0bTIVi7Me9BdFn0tW+KDAR0uQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M0tQxY7e+8ABE6SFktz7MN5CVXy5tPD0Is/uG68Una0=
+			Nz3+i5e3hv6NCCcVugiDR2eACvmQotztq6V8x7YHKrk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -54,28 +58,82 @@
 			dPQ9oUUPXWnYTENX50bqMGculD01klpLam5SgPBeYK4=
 			</data>
 		</dict>
+		<key>Resources/manifest.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+6aThvQx6PNR6MnOPEQOhkTKroVK1Ne7Z+iRke1p/0A=
+			</data>
+		</dict>
 		<key>Windows/ix-websocket.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFsuPMg0cuO8K0mjjSR/9BE2qXUYCzLGCnqlSNh3UcY=
+			gkXPYedkZN5zDV8EjopxnA2FHo5NUinQH7OvXqgvuTA=
+			</data>
+		</dict>
+		<key>Windows/ix-websocket.exp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gPBhWMQ2NdUzSx352wOi4qBhUVbv8ccwbfGNZRe4aFs=
+			</data>
+		</dict>
+		<key>Windows/ix-websocket.iobj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UxOPaXqw4C2MvZKnAvsy/3dv7j/RECuMo2cEQuiRVWw=
+			</data>
+		</dict>
+		<key>Windows/ix-websocket.ipdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZFCM6EyyXTeFT3gHo6mnIM6V5ICMi4CAppUTREHjaug=
+			</data>
+		</dict>
+		<key>Windows/ix-websocket.lib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XNV79x2J12ldQTZo+WzMlSdYUjGo1T0AWIm5oOReBXo=
 			</data>
 		</dict>
 		<key>Windows64/ix-websocket.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRkOYLG2k0VqzCT9QIBrmguGP9xj4O9MWrO5a8rcIjY=
+			kdTR0pFV4bLiaUdGmzJzMSRGLooAzCrtkUoPo39DbK0=
 			</data>
 		</dict>
-		<key>manifest.json</key>
+		<key>Windows64/ix-websocket.exp</key>
 		<dict>
-			<key>cdhash</key>
+			<key>hash2</key>
 			<data>
-			FAiucewKicrjakWVSx5+DKw3hWg=
+			7/gJLpxD3TquspHc4TSGg9kJcA3ENloljkpvcJbxiJg=
 			</data>
-			<key>requirement</key>
-			<string>identifier manifest and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Y69CWUC25B</string>
+		</dict>
+		<key>Windows64/ix-websocket.iobj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lfe3SRESDrDW/89G+UU4kx93Nc+pAySj9mG0th78q9w=
+			</data>
+		</dict>
+		<key>Windows64/ix-websocket.ipdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VdqtePq+IDfgKZSIM2VwnY8W0CRXy2aKrJnXX9TAnsg=
+			</data>
+		</dict>
+		<key>Windows64/ix-websocket.lib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y5nqoUxXJ37MNvZh/sVp/nHcnwlVX1fWH96DrD528Mk=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

@@ -1,70 +1,70 @@
 ﻿{
 	"methods": {
 		"Server": {
-			"timeStamp": "2019-07-11T06:29:40.000Z",
+			"timeStamp": "2019-11-14T00:51:09.469Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"generate_file_from_template": {
-			"timeStamp": "2019-07-02T13:36:21.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project_infoplist": {
-			"timeStamp": "2019-07-02T13:51:21.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_constants_xlf": {
-			"timeStamp": "2019-07-02T13:37:17.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project_xcode": {
-			"timeStamp": "2019-07-02T13:57:13.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project": {
-			"timeStamp": "2019-07-08T06:55:11.000Z"
+			"timeStamp": "2019-11-14T00:51:09.470Z"
 		},
 		"generate_project_vs": {
-			"timeStamp": "2019-07-02T07:14:12.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project_plugin_stub": {
-			"timeStamp": "2019-07-02T14:18:29.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"Client": {
-			"timeStamp": "2019-07-11T06:29:39.000Z",
+			"timeStamp": "2019-11-14T00:51:09.469Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"callback": {
-			"timeStamp": "2019-07-11T13:28:19.000Z",
+			"timeStamp": "2019-11-14T00:51:09.469Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"generate_project_source": {
-			"timeStamp": "2019-07-02T14:36:13.000Z",
+			"timeStamp": "2019-11-14T00:51:09.470Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"

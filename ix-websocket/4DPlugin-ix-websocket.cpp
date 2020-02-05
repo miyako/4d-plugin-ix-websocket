@@ -422,26 +422,6 @@ void websocketclient_open(int i, ix::WebSocketOpenInfo *openInfo) {
 
 #pragma mark -
 
-bool IsProcessOnExit()
-{
-    PA_Variable params[1];
-    PA_Variable result = PA_ExecuteCommandByID( /*Current process name*/1392, params, 0 );
-    PA_Unistring object = PA_GetStringVariable(result);
-    CUTF16String procName = CUTF16String(object.fString, object.fLength);
-    CUTF16String exitProcName((PA_Unichar *)"$\0x\0x\0\0\0");
-    
-    return (!procName.compare(exitProcName));
-}
-
-void OnCloseProcess()
-{
-    if(IsProcessOnExit())
-    {
-        delete event_queue;
-        delete message_list;
-    }
-}
-
 void OnStartup() {
     
     message_list = new websocket_message_list;
@@ -450,6 +430,9 @@ void OnStartup() {
 }
 
 void OnExit() {
+    
+    delete event_queue;
+    delete message_list;
     
     websocket_client_ref::clearAll();
     websocket_server_ref::clearAll();
@@ -470,10 +453,6 @@ void PluginMain(PA_long32 selector, PA_PluginParameters params) {
 
             case kDeinitPlugin :
                 OnExit();
-                break;
-                
-            case kCloseProcess :
-                OnCloseProcess();
                 break;
                 
                 // --- ix-websocket

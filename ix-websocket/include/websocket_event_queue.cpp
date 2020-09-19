@@ -132,9 +132,11 @@ void websocket_event_queue::loop() {
         
         PA_YieldAbsolute();
         
-    } while (!websocket_event_queue_exit);
+    } while ((!websocket_event_queue_exit) & !PA_IsProcessDying());
         
     std::cout << "end event queue loop" << std::endl;
+    
+    PA_KillProcess();
 }
 
 websocket_event_queue::~websocket_event_queue() {

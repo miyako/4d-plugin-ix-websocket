@@ -1,70 +1,76 @@
 ﻿{
 	"methods": {
 		"Server": {
-			"timeStamp": "2019-11-14T00:51:09.469Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"generate_file_from_template": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
+		"X": {
+			"timeStamp": "2020-09-19T06:30:25.211Z"
+		},
 		"generate_project_infoplist": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_constants_xlf": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project_xcode": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
+		"TEST": {
+			"timeStamp": "2020-09-19T06:29:12.943Z"
+		},
 		"generate_project": {
-			"timeStamp": "2019-11-14T00:51:09.470Z"
+			"timeStamp": "2019-11-14T00:51:09.000Z"
 		},
 		"generate_project_vs": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"generate_project_plugin_stub": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"
 			}
 		},
 		"Client": {
-			"timeStamp": "2019-11-14T00:51:09.469Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"callback": {
-			"timeStamp": "2019-11-14T00:51:09.469Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"generate_project_source": {
-			"timeStamp": "2019-11-14T00:51:09.470Z",
+			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
 				"invisible": true,
 				"preemptive": "capable"

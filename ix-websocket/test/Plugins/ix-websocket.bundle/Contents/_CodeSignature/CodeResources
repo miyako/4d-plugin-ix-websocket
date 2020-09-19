@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h7zQKlogj+Wjb8R0jQl2zl3c2F0=
+			vopEko5ILEi0D97ojEwv/RpyVEs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nz3+i5e3hv6NCCcVugiDR2eACvmQotztq6V8x7YHKrk=
+			ap9YVYvOHTAVnHfWmaIU0oirFx+owTm1m0g2o4ar5Os=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,70 +69,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gkXPYedkZN5zDV8EjopxnA2FHo5NUinQH7OvXqgvuTA=
-			</data>
-		</dict>
-		<key>Windows/ix-websocket.exp</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gPBhWMQ2NdUzSx352wOi4qBhUVbv8ccwbfGNZRe4aFs=
-			</data>
-		</dict>
-		<key>Windows/ix-websocket.iobj</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UxOPaXqw4C2MvZKnAvsy/3dv7j/RECuMo2cEQuiRVWw=
-			</data>
-		</dict>
-		<key>Windows/ix-websocket.ipdb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZFCM6EyyXTeFT3gHo6mnIM6V5ICMi4CAppUTREHjaug=
-			</data>
-		</dict>
-		<key>Windows/ix-websocket.lib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XNV79x2J12ldQTZo+WzMlSdYUjGo1T0AWIm5oOReBXo=
+			LdwWGJQxuYTKx5psnuoz/PzrOy0pdKCe+SLO62eyrKU=
 			</data>
 		</dict>
 		<key>Windows64/ix-websocket.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdTR0pFV4bLiaUdGmzJzMSRGLooAzCrtkUoPo39DbK0=
-			</data>
-		</dict>
-		<key>Windows64/ix-websocket.exp</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7/gJLpxD3TquspHc4TSGg9kJcA3ENloljkpvcJbxiJg=
-			</data>
-		</dict>
-		<key>Windows64/ix-websocket.iobj</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lfe3SRESDrDW/89G+UU4kx93Nc+pAySj9mG0th78q9w=
-			</data>
-		</dict>
-		<key>Windows64/ix-websocket.ipdb</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VdqtePq+IDfgKZSIM2VwnY8W0CRXy2aKrJnXX9TAnsg=
-			</data>
-		</dict>
-		<key>Windows64/ix-websocket.lib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y5nqoUxXJ37MNvZh/sVp/nHcnwlVX1fWH96DrD528Mk=
+			Ia3BBBrncDvOlz+htQQHowPIpv0Lu0Ir4QPWDvvLYs8=
 			</data>
 		</dict>
 	</dict>

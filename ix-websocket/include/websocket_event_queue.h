@@ -24,7 +24,7 @@ extern "C" {
         
         websocket_event_queue(websocket_message_list *list, std::mutex *mutex);
         ~websocket_event_queue();
-        
+    
         static void loop();
         static void run();
         

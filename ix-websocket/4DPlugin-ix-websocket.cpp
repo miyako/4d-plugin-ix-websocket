@@ -436,6 +436,7 @@ void OnExit() {
     
     websocket_client_ref::clearAll();
     websocket_server_ref::clearAll();
+
 }
 
 #pragma mark -
@@ -448,10 +449,11 @@ void PluginMain(PA_long32 selector, PA_PluginParameters params) {
         {
             case kInitPlugin :
             case kServerInitPlugin :
-                OnStartup();
+                PA_RunInMainProcess((PA_RunInMainProcessProcPtr)OnStartup, NULL);
                 break;
 
             case kDeinitPlugin :
+            case kServerDeinitPlugin :
                 OnExit();
                 break;
                 

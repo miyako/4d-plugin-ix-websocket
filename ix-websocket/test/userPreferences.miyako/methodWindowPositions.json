@@ -1,9 +1,9 @@
 ﻿{
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"left": 322,
-		"top": 651,
-		"width": 1138,
-		"height": 642
+		"left": 470,
+		"top": 417,
+		"width": 966,
+		"height": 527
 	},
 	"Trash/Methods/(test_mkbitmap).4dm": {
 		"left": 319,
@@ -144,10 +144,10 @@
 		"height": 762
 	},
 	"Sources/Methods/TEST.4dm": {
-		"left": 450,
-		"top": 188,
-		"width": 877,
-		"height": 637
+		"left": 470,
+		"top": 417,
+		"width": 966,
+		"height": 527
 	},
 	"Sources/Methods/TEST_v17.4dm": {
 		"left": 450,
@@ -256,5 +256,11 @@
 		"top": 338,
 		"width": 824,
 		"height": 538
+	},
+	"Trash/Methods/(X).4dm": {
+		"left": 99,
+		"top": 553,
+		"width": 966,
+		"height": 605
 	}
 }

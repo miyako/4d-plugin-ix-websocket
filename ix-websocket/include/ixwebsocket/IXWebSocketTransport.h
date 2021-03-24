@@ -24,6 +24,7 @@
 #include <memory>
 #include <mutex>
 #include <string>
+
 #include <vector>
 
 namespace ix
@@ -75,8 +76,10 @@ namespace ix
                        int pingIntervalSecs,
                        int pingTimeoutSecs);
 
-        WebSocketInitResult connectToUrl(const std::string& url, // Client
-                                         int timeoutSecs);
+        WebSocketInitResult connectToUrl( // Client
+            const std::string& url,
+            const WebSocketHttpHeaders& headers,
+            int timeoutSecs);
         WebSocketInitResult connectToSocket(int fd, // Server
                                             int timeoutSecs);
 
@@ -109,6 +112,8 @@ namespace ix
             unsigned header_size;
             bool fin;
             bool rsv1;
+            bool rsv2;
+            bool rsv3;
             bool mask;
             enum opcode_type
             {
@@ -145,6 +150,11 @@ namespace ix
         // buffer that is resized, as this operation can be slow when a buffer has its
         // size increased 2 fold, while appending to a list has a fixed cost.
         std::list<std::vector<uint8_t>> _chunks;
+
+        // Record the message kind (will be TEXT or BINARY) for a fragmented
+        // message, present in the first chunk, since the final chunk will be a
+        // CONTINUATION opcode and doesn't tell the full message kind
+        MessageKind _fragmentedMessageKind;
 
         // Fragments are 32K long
         static constexpr size_t kChunkSize = 1 << 15;

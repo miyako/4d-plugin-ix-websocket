@@ -171,13 +171,13 @@
 		"stamp": "2019-07-02T23:15:40.975Z"
 	},
 	"Sources/Methods/TEST.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 40,
-		"lastSelectedLine": 40,
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-07T00:11:38.643Z"
+		"stamp": "2021-03-24T15:02:33.335Z"
 	},
 	"Sources/Methods/TEST_v17.4dm": {
 		"startSelection": 0,
@@ -295,5 +295,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-07-11T06:20:10.931Z"
+	},
+	"Trash/Methods/(X).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-09-19T06:30:25.000Z"
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T15:02:33.332Z"
 	}
 }

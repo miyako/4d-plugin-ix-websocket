@@ -59,7 +59,7 @@ void websocket_client_ref::getParams(PA_ObjectRef params) {
         ob_set_i(params, L"ref", _id);
         ob_set_s(params, L"url", _client->getUrl().c_str());
         ob_set_i(params, L"pingInterval", _client->getPingInterval());
-        ob_set_i(params, L"pingTimeout", _client->getPingTimeout());
+//        ob_set_i(params, L"pingTimeout", _client->getPingTimeout());
         ob_set_b(params, L"isAutomaticReconnectionEnabled", _client->isAutomaticReconnectionEnabled());
         
         ix::WebSocketPerMessageDeflateOptions perMessageDeflateOptions = _client->getPerMessageDeflateOptions();
@@ -104,12 +104,12 @@ void websocket_client_ref::setParams(PA_ObjectRef params) {
         
         if(ob_is_defined(params, L"pingInterval"))
         {
-            _client->setHeartBeatPeriod(ob_get_n(params, L"pingInterval"));
+//            _client->setHeartBeatPeriod(ob_get_n(params, L"pingInterval"));
         }
         
         if(ob_is_defined(params, L"pingTimeout"))
         {
-            _client->setPingTimeout(ob_get_n(params, L"pingTimeout"));
+//            _client->setPingTimeout(ob_get_n(params, L"pingTimeout"));
         }
         
         if(ob_is_defined(params, L"enableAutomaticReconnection"))

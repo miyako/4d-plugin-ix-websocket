@@ -13,9 +13,6 @@
 				"preemptive": "capable"
 			}
 		},
-		"X": {
-			"timeStamp": "2020-09-19T06:30:25.211Z"
-		},
 		"generate_project_infoplist": {
 			"timeStamp": "2019-11-14T00:51:09.000Z",
 			"attributes": {
@@ -38,7 +35,7 @@
 			}
 		},
 		"TEST": {
-			"timeStamp": "2020-09-19T06:29:12.943Z"
+			"timeStamp": "2020-09-19T06:29:12.000Z"
 		},
 		"generate_project": {
 			"timeStamp": "2019-11-14T00:51:09.000Z"
@@ -75,6 +72,9 @@
 				"invisible": true,
 				"preemptive": "capable"
 			}
+		},
+		"(X)": {
+			"timeStamp": "2020-09-19T06:30:25.000Z"
 		}
 	}
 }

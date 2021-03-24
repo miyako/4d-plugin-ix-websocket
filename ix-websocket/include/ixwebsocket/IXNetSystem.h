@@ -12,11 +12,18 @@
 #include <basetsd.h>
 #include <io.h>
 #include <ws2def.h>
+
+// Define our own poll on Windows
+typedef unsigned long int nfds_t;
+
+int poll(struct pollfd* fds, nfds_t nfds, int timeout);
+
 #else
 #include <arpa/inet.h>
 #include <errno.h>
 #include <netdb.h>
 #include <netinet/tcp.h>
+#include <poll.h>
 #include <sys/select.h>
 #include <sys/socket.h>
 #include <sys/stat.h>

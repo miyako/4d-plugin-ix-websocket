@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vopEko5ILEi0D97ojEwv/RpyVEs=
+			xoglTrTrrk7RwumPFFQKv+GkCAI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ap9YVYvOHTAVnHfWmaIU0oirFx+owTm1m0g2o4ar5Os=
+			eLPStvu4JKtf6t6otxPXAxz1CHIR3fhP4wPOwBAftK0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -63,13 +63,6 @@
 			<key>hash2</key>
 			<data>
 			+6aThvQx6PNR6MnOPEQOhkTKroVK1Ne7Z+iRke1p/0A=
-			</data>
-		</dict>
-		<key>Windows/ix-websocket.4DX</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LdwWGJQxuYTKx5psnuoz/PzrOy0pdKCe+SLO62eyrKU=
 			</data>
 		</dict>
 		<key>Windows64/ix-websocket.4DX</key>

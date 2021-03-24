@@ -4,7 +4,7 @@
 ![downloads](https://img.shields.io/github/downloads/miyako/4d-plugin-ix-websocket/total)
 
 # 4d-plugin-ix-websocket
-Simple websocket based on [IXWebSocket](https://github.com/machinezone/IXWebSocket)
+Simple websocket based on [IXWebSocket-5.1.6](https://github.com/machinezone/IXWebSocket)
 
 ### Syntax
 

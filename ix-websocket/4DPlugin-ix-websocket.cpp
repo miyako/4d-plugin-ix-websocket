@@ -454,7 +454,7 @@ void PluginMain(PA_long32 selector, PA_PluginParameters params) {
 
             case kDeinitPlugin :
             case kServerDeinitPlugin :
-                OnExit();
+                PA_RunInMainProcess((PA_RunInMainProcessProcPtr)OnExit, NULL);
                 break;
                 
                 // --- ix-websocket

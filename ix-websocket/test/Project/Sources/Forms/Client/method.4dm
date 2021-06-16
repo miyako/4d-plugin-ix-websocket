@@ -1,4 +1,4 @@
-$event:=Form event:C388
+$event:=Form event code:C388
 
 Case of 
 	: ($event=On Load:K2:1)

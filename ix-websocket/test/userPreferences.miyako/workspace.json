@@ -1,33 +1,6 @@
 ﻿{
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483642,
-			"previousTabType": "method",
-			"previousTabID": 2147483628,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "TEST"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483628,
-			"previousTabType": "form",
-			"previousTabID": 1,
-			"codeDescriptor": {
-				"type": 5,
-				"databaseMethod": 1
-			}
-		},
-		{
-			"type": "form",
-			"id": 1,
-			"previousTabType": "form",
-			"previousTabID": 2,
-			"formName": "Server"
-		},
-		{
 			"type": "form",
 			"id": 2,
 			"formName": "Client"

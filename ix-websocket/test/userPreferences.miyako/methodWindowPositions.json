@@ -1,7 +1,7 @@
 ﻿{
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"left": 470,
-		"top": 417,
+		"left": -39,
+		"top": 236,
 		"width": 966,
 		"height": 527
 	},
@@ -144,8 +144,8 @@
 		"height": 762
 	},
 	"Sources/Methods/TEST.4dm": {
-		"left": 470,
-		"top": 417,
+		"left": 57,
+		"top": 232,
 		"width": 966,
 		"height": 527
 	},
@@ -192,14 +192,14 @@
 		"height": 724
 	},
 	"Sources/Forms/Client/method.4dm": {
-		"left": 239,
-		"top": 154,
+		"left": 105,
+		"top": 181,
 		"width": 922,
 		"height": 504
 	},
 	"Sources/Forms/Server/method.4dm": {
-		"left": 704,
-		"top": 447,
+		"left": -232,
+		"top": 195,
 		"width": 1102,
 		"height": 724
 	},

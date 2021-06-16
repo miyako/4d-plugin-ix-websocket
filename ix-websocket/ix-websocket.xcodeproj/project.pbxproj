@@ -18,11 +18,12 @@
 		D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D130064E12F02D9700702C0E /* Cocoa.framework */; };
 		D13116A91A03ACB700DE1322 /* 4DPluginAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = D13116A81A03ACB700DE1322 /* 4DPluginAPI.c */; settings = {COMPILER_FLAGS = "-Wno-multichar"; }; };
 		D134D4AC1A030BA0008D14EF /* manifest.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = D134D4A91A030B06008D14EF /* manifest.json */; };
+		D18D28D92679E67000F2B922 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18D28D82679E67000F2B922 /* Security.framework */; };
+		D18D28DD2679E6D600F2B922 /* libjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BB5F9222D412DB00413862 /* libjsoncpp.a */; };
 		D1AC373422D3228F003254EB /* libixwebsocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AC373322D3228F003254EB /* libixwebsocket.a */; };
 		D1AC373622D323D2003254EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AC373522D323D2003254EB /* libz.tbd */; };
 		D1AC373922D334F1003254EB /* 4DPlugin-JSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1AC373722D334F1003254EB /* 4DPlugin-JSON.cpp */; };
 		D1AC373A22D334F1003254EB /* 4DPlugin-JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AC373822D334F1003254EB /* 4DPlugin-JSON.h */; };
-		D1BB5F9322D412DC00413862 /* libjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BB5F9222D412DB00413862 /* libjsoncpp.a */; };
 		D1BB5F9522D567BE00413862 /* websocket_server_ref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1BB5F9422D567BE00413862 /* websocket_server_ref.cpp */; };
 		D1BB5F9722D567C300413862 /* websocket_server_ref.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB5F9622D567C300413862 /* websocket_server_ref.h */; };
 		D1BB5F9A22D5B11D00413862 /* websocket_message_list.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB5F9822D5B11D00413862 /* websocket_message_list.h */; };
@@ -31,8 +32,6 @@
 		D1BB5F9F22D5DEF400413862 /* websocket_client_ref.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1BB5F9D22D5DEF400413862 /* websocket_client_ref.cpp */; };
 		D1BB5FA222D61B7200413862 /* websocket_event_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB5FA022D61B7200413862 /* websocket_event_queue.h */; };
 		D1BB5FA322D61B7200413862 /* websocket_event_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1BB5FA122D61B7200413862 /* websocket_event_queue.cpp */; };
-		D1FBA1A4260B83DD00E3658D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FBA1A3260B83DD00E3658D /* libssl.a */; };
-		D1FBA1A7260B83F600E3658D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FBA1A6260B83F600E3658D /* libcrypto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +62,7 @@
 		D13116A81A03ACB700DE1322 /* 4DPluginAPI.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = 4DPluginAPI.c; sourceTree = "<group>"; };
 		D134D4A91A030B06008D14EF /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		D14D10DD1A03A8A5008B3411 /* constants.xlf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = constants.xlf; sourceTree = "<group>"; };
+		D18D28D82679E67000F2B922 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D1AC373322D3228F003254EB /* libixwebsocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libixwebsocket.a; path = a/libixwebsocket.a; sourceTree = "<group>"; };
 		D1AC373522D323D2003254EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D1AC373722D334F1003254EB /* 4DPlugin-JSON.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "4DPlugin-JSON.cpp"; path = "support/4DPlugin-JSON.cpp"; sourceTree = "<group>"; };
@@ -76,8 +76,6 @@
 		D1BB5F9D22D5DEF400413862 /* websocket_client_ref.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = websocket_client_ref.cpp; path = include/websocket_client_ref.cpp; sourceTree = "<group>"; };
 		D1BB5FA022D61B7200413862 /* websocket_event_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = websocket_event_queue.h; path = include/websocket_event_queue.h; sourceTree = "<group>"; };
 		D1BB5FA122D61B7200413862 /* websocket_event_queue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; fileEncoding = 4; name = websocket_event_queue.cpp; path = include/websocket_event_queue.cpp; sourceTree = "<group>"; };
-		D1FBA1A3260B83DD00E3658D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = a/libssl.a; sourceTree = "<group>"; };
-		D1FBA1A6260B83F600E3658D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = a/libcrypto.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FBA1A4260B83DD00E3658D /* libssl.a in Frameworks */,
-				D1BB5F9322D412DC00413862 /* libjsoncpp.a in Frameworks */,
-				D1FBA1A7260B83F600E3658D /* libcrypto.a in Frameworks */,
+				D18D28DD2679E6D600F2B922 /* libjsoncpp.a in Frameworks */,
+				D18D28D92679E67000F2B922 /* Security.framework in Frameworks */,
 				D1AC373622D323D2003254EB /* libz.tbd in Frameworks */,
 				D1AC373422D3228F003254EB /* libixwebsocket.a in Frameworks */,
 				D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */,
@@ -100,8 +97,6 @@
 		089C166AFE841209C02AAC07 /* ix-websocket */ = {
 			isa = PBXGroup;
 			children = (
-				D1FBA1A6260B83F600E3658D /* libcrypto.a */,
-				D1FBA1A3260B83DD00E3658D /* libssl.a */,
 				D108BD7A1A03D1E6001F1B90 /* Manifest */,
 				08FB77ADFE841716C02AAC07 /* Source */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -182,6 +177,7 @@
 		D16FBB3C22A4C07E008F0416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D18D28D82679E67000F2B922 /* Security.framework */,
 				D1BB5F9222D412DB00413862 /* libjsoncpp.a */,
 				D1AC373522D323D2003254EB /* libz.tbd */,
 				D1AC373322D3228F003254EB /* libixwebsocket.a */,
@@ -370,7 +366,7 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
-				MARKETING_VERSION = 3.5.0;
+				MARKETING_VERSION = 3.6.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -421,7 +417,7 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
-				MARKETING_VERSION = 3.5.0;
+				MARKETING_VERSION = 3.6.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
@@ -470,7 +466,7 @@
 					"$(PROJECT_DIR)/a",
 				);
 				LIBRARY_STYLE = Bundle;
-				MARKETING_VERSION = 3.5.0;
+				MARKETING_VERSION = 3.6.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_REZFLAGS = "";
